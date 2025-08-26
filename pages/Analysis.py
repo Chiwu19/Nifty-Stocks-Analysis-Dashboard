@@ -27,11 +27,11 @@ st.markdown(
 def load_csv(path):
     return pd.read_csv(path)
 
-NIFTY_50 = load_csv('C:\\Users\\Lenovo\\OneDrive\\Desktop\\NIFTY CSV\\Nifty 50 Historical Data.csv')
-NIFTY_IT = load_csv('C:\\Users\\Lenovo\\OneDrive\\Desktop\\NIFTY CSV\\Nifty IT Historical Data.csv')
-NIFTY_BANK = load_csv('C:\\Users\\Lenovo\\OneDrive\\Desktop\\NIFTY CSV\\Nifty Bank Historical Data.csv')
-NIFTY_FMCG = load_csv('C:\\Users\\Lenovo\\OneDrive\\Desktop\\NIFTY CSV\\Nifty FMCG Historical Data.csv')
-NIFTY_PHARMA = load_csv('C:\\Users\\Lenovo\\OneDrive\\Desktop\\NIFTY CSV\\Nifty Pharma Historical Data.csv')
+NIFTY_50 = load_csv('NIFTY CSV/Nifty 50 Historical Data.csv')
+NIFTY_IT = load_csv('NIFTY CSV/Nifty IT Historical Data.csv')
+NIFTY_BANK = load_csv('NIFTY CSV/Nifty Bank Historical Data.csv')
+NIFTY_FMCG = load_csv('NIFTY CSV/Nifty FMCG Historical Data.csv')
+NIFTY_PHARMA = load_csv('NIFTY CSV/Nifty Pharma Historical Data.csv')
 
 NIFTY_50.columns = ['date','close','open','high','low','volume','Change%']
 NIFTY_IT.columns = ['date','close','open','high','low','volume','Change%']
