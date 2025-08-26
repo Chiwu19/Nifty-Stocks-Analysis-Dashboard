@@ -1,9 +1,5 @@
 import streamlit as st
-import os
 import pandas as pd
-import numpy as np
-import plotly.graph_objects as go
-import matplotlib.pyplot as plt
 import time
 import datetime
 from streamlit_lightweight_charts import renderLightweightCharts
