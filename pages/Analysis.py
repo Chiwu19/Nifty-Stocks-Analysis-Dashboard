@@ -112,7 +112,7 @@ with tab1:
         df = df[(df['date'] >= pd.to_datetime(start_date)) & (df['date'] <= pd.to_datetime(end_date))]
 
 
-    st.subheader("Chart Options")
+    st.subheader("Chart")
    
     chart_options = st.pills(
         "Chart Options",
